@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# 🥗 Healivery - 헬시 배달 서비스
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Healivery**는 건강한 식단 정보를 기반으로 메뉴를 추천하고, 사용자가 영양소를 비교하여 배달 음식을 주문할 수 있는 웹 애플리케이션입니다.  
+이 프로젝트는 **연세대학교 컴퓨터과학과 2025-1학기 _SW AI 비즈니스 응용설계_ 수업의 팀/개인 프로젝트 결과물**로 개발되었습니다.
 
-## Available Scripts
+<br/>
 
-In the project directory, you can run:
+## 📌 프로젝트 정보
 
-### `npm start`
+- **과목명**: SW AI 비즈니스 응용설계 (2025-1, 연세대학교 컴퓨터과학과)  
+- **개발자**: 전희망 (2020163053)  
+- **문의**: jhmharry@yonsei.ac.kr
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br/>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ⚙️ 사용 기술
 
-### `npm test`
+- **Frontend**: React.js (CRA 기반)
+- **State Management**: Context API
+- **UI**: HTML5, CSS3, Inline Styling (Custom Design)
+- **배포**: [Netlify](https://www.netlify.com/)  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br/>
 
-### `npm run build`
+## 🌿 주요 기능
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 메뉴 리스트 및 매장 상세 페이지
+- 영양소 기반 다각형 그래프 시각화 (오각형 Nutrition Chart)
+- 사용자 기준 1끼 권장량 기반 건강한 식단 판별
+- 장바구니 및 실시간 주문 정보 입력 기능
+- Google Spreadsheet 연동 주문 기록 저장
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📷 스크린샷
 
-### `npm run eject`
+| 매장 목록 | 영양소 오각형 시각화 | 주문 입력 |
+|-----------|--------------------|-----------|
+| (추가 예정) | (추가 예정) | (추가 예정) |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<br/>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠 로컬 실행 방법
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/hope-jun/25-1-Healivery.git
+cd 25-1-Healivery
+npm install
+npm start
