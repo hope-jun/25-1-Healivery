@@ -1,0 +1,351 @@
+[
+  {
+    "id": 1,
+    "name": "모종 인더시티",
+    "storeImage": "/images/모종.jpeg",
+    "category": [
+      "고단백",
+      "샐러드"
+    ],
+    "menu": [
+      {
+        "id": 1,
+        "name": "치킨 라이스볼",
+        "price": 9800,
+        "image": "/images/모종_치킨라이스.jpeg",
+        "description": "17가지 잡곡과 수비드한 닭가슴살, 그리고 수제 케일장아찌를 곁들여먹는 식단",
+        "nutrition": {
+          "calories": 393,
+          "protein": 41,
+          "fat": 3,
+          "carbs": 51,
+          "sodium": 200
+        }
+      },
+      {
+        "id": 2,
+        "name": "훈제오리 샐러드 파스타",
+        "price": 10800,
+        "image": "/images/모종_훈제오리.jpeg",
+        "description": "훈제 오리와 다양한 채소가 어우러진 샐러드 파스타",
+        "nutrition": {
+          "calories": 392,
+          "protein": 24,
+          "fat": 20,
+          "carbs": 29,
+          "sodium": 250
+        }
+      },
+      {
+        "id": 3,
+        "name": "오트밀 닭죽",
+        "price": 6800,
+        "image": "/images/모종_오트밀닭죽.jpeg",
+        "description": "고단백 닭가슴살이 들어간 속이 편한 닭죽",
+        "nutrition": {
+          "calories": 192,
+          "protein": 25,
+          "fat": 10,
+          "carbs": 31,
+          "sodium": 150
+        }
+      },
+      {
+        "id": 4,
+        "name": "아이스 아메리카노",
+        "price": 3000,
+        "image": "https://imagecdn.dpon.gift/images/merchandises/%EC%95%84%EC%9D%B4%EC%8A%A4-%EC%95%84%EB%A9%94%EB%A6%AC%EC%B9%B4%EB%85%B8-P.jpg",
+        "description": "블랜딩한 신선한 원두로 만든 커피!",
+        "nutrition": {
+          "calories": 10,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 2,
+          "sodium": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "샐러디 연세대점",
+    "storeImage": "/images/샐러디.jpeg",
+    "category": [
+      "비건식",
+      "다이어트",
+      "샐러드"
+    ],
+    "menu": [
+      {
+        "id": 1,
+        "name": "멕시칸 랩 샌드위치",
+        "price": 8300,
+        "image": "/images/샐러디_멕시칸.jpeg",
+        "description": "통밀 또띠아 속 매콤달콤한 크리미 칠리 드레싱과 나쵸 토핑이 어우려진 랩",
+        "nutrition": {
+          "calories": 645,
+          "protein": 19,
+          "fat": 35,
+          "carbs": 60,
+          "sodium": 898 
+        }
+      },
+      {
+        "id": 2,
+        "name": "칠리베이컨 포케볼",
+        "price": 10200,
+        "image": "/images/샐러디_칠리.jpeg",
+        "description": "베이컨, 옥수수, 계란의 고소함과 통곡물이 풍부한 시그니처 포케",
+        "nutrition": {
+          "calories": 507,
+          "protein":20 ,
+          "fat": 18,
+          "carbs": 64 ,
+          "sodium": 300 
+        }
+      },
+      {
+        "id": 3,
+        "name": "양송이 크림스프",
+        "price": 5200,
+        "image": "/images/샐러디_양송이.jpeg",
+        "description": "향긋한 버섯향 가득한 크림스프",
+        "nutrition": {
+          "calories": 137,
+          "protein": 3,
+          "fat": 11,
+          "carbs": 20 ,
+          "sodium": 500
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "프레퍼스 다이어트 푸드 신촌점",
+    "storeImage": "/images/프레퍼스.jpg",
+    "category": ["다이어트","고단백"],
+    "menu": [
+      {
+        "id": 1,
+        "name": "비프 샐러드 파스타",
+        "price": 12500,
+        "image": "/images/프레퍼스_비프.png",
+        "description": "고단백 소고기와 저당 파스타로 구성된 샐러드 스타일의 식사",
+        "nutrition": {
+          "calories": 450,
+          "protein": 32,
+          "fat": 14,
+          "carbs": 35,
+          "sodium": 390
+        }
+      },
+      {
+        "id": 2,
+        "name": "비프 플레이트",
+        "price": 13000,
+        "image": "/images/프레퍼스_비프플레터.jpg",
+        "description": "소고기, 채소, 현미밥이 어우러진 고단백 균형식",
+        "nutrition": {
+          "calories": 520,
+          "protein": 35,
+          "fat": 18,
+          "carbs": 40,
+          "sodium": 450
+        }
+      },
+      {
+        "id": 3,
+        "name": "치킨 커리 덮밥",
+        "price": 11500,
+        "image": "/images/프레퍼스_치킨.png",
+        "description": "매콤한 커리와 닭가슴살이 조화를 이루는 영양식",
+        "nutrition": {
+          "calories": 480,
+          "protein": 28,
+          "fat": 16,
+          "carbs": 45,
+          "sodium": 500
+        }
+      },
+      {
+        "id": 4,
+        "name": "제로 콜라",
+        "price": 2000,
+        "image": "/images/제로콜라.jpg",
+        "description": "칼로리가 없는 탄산음료",
+        "nutrition": {
+          "calories": 0,
+          "protein": 0,
+          "fat": 0,
+          "carbs": 0,
+          "sodium": 15
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "더리얼치즈버거",
+    "storeImage": "https://image-cdn.hypb.st/https%3A%2F%2Fkr.hypebeast.com%2Ffiles%2F2021%2F03%2Fbest-burger-place-seoul-pps-sunday-burger-club-burgerboy-le-freak-casual-trc-2021-1.jpg?q=75&w=800&cbr=1&fit=max",
+    "category": ["치팅데이"],
+    "menu": [
+      {
+        "id": 1,
+        "name": "더블치즈 버거",
+        "price": 8900,
+        "image": "/images/더리얼_버거.jpeg",
+        "description": "두 장의 패티와 풍성한 치즈가 들어간 정통 치즈버거",
+        "nutrition": {
+          "calories": 700,
+          "protein": 30,
+          "fat": 45,
+          "carbs": 40,
+          "sodium": 950
+        }
+      },
+      {
+        "id": 2,
+        "name": "프렌치 프라이즈",
+        "price": 3500,
+        "image": "/images/더리얼_후라이.jpeg",
+        "description": "겉은 바삭하고 속은 부드러운 감자튀김",
+        "nutrition": {
+          "calories": 400,
+          "protein": 5,
+          "fat": 25,
+          "carbs": 45,
+          "sodium": 380
+        }
+      },
+      {
+        "id": 3,
+        "name": "코울슬로",
+        "price": 2000,
+        "image": "/images/더리얼_코울슬로.jpg",
+        "description": "양배추와 드레싱이 어우러진 상큼한 샐러드",
+        "nutrition": {
+          "calories": 150,
+          "protein": 2,
+          "fat": 10,
+          "carbs": 12,
+          "sodium": 180
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "아보 합정본점",
+    "storeImage": "https://dnvefa72aowie.cloudfront.net/capri/smb/202101/2fcbe1dcf90b1bff2257cb7aa0f0863dc57288196e05b24750.png?q=95&s=1440x1440&t=inside",
+    "category": ["저탄고지","다이어트"],
+    "menu": [
+      {
+        "id": 1,
+        "name": "아보쉬림프에그 샌드위치",
+        "price": 9500,
+        "image": "/images/아보_쉬림프.jpeg",
+        "description": "아보카도, 새우, 달걀이 조화된 영양 샌드위치",
+        "nutrition": {
+          "calories": 410,
+          "protein": 20,
+          "fat": 22,
+          "carbs": 28,
+          "sodium": 420
+        }
+      },
+      {
+        "id": 2,
+        "name": "아보연어 라이스",
+        "price": 11500,
+        "image": "/images/아보_연어.jpeg",
+        "description": "아보카도와 연어가 들어간 저당 현미볼",
+        "nutrition": {
+          "calories": 470,
+          "protein": 25,
+          "fat": 20,
+          "carbs": 35,
+          "sodium": 390
+        }
+      },
+      {
+        "id": 3,
+        "name": "ABC 주스",
+        "price": 5500,
+        "image": "/images/아보_주스.jpeg",
+        "description": "사과, 비트, 당근이 들어간 건강한 착즙 주스",
+        "nutrition": {
+          "calories": 120,
+          "protein": 1,
+          "fat": 0,
+          "carbs": 28,
+          "sodium": 40
+        }
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "그린그로서리",
+    "storeImage": "https://letter.wepick.kr/wp-content/uploads/2023/11/image-5.png.webp",
+    "category": ["비건식", "저지방"],
+    "menu": [
+      {
+        "id": 1,
+        "name": "비건 렌틸 스튜",
+        "price": 11000,
+        "image": "https://png.pngtree.com/png-vector/20241210/ourmid/pngtree-bowl-of-lentil-soup-garnished-with-herbs-png-image_14689007.png",
+        "description": "향신료로 맛을 낸 렌틸콩, 토마토, 채소가 듬뿍 들어간 따뜻한 비건 스튜",
+        "nutrition": {
+          "calories": 320,
+          "protein": 18,
+          "fat": 5,
+          "carbs": 45,
+          "sodium": 220
+        }
+      },
+      {
+        "id": 2,
+        "name": "비건 바질 파스타",
+        "price": 12500,
+        "image": "https://img.pikbest.com/png-images/20250113/delicious-pesto-pasta-with-basil-leaves-_11381474.png!sw800",
+        "description": "통밀면과 바질 페스토, 채소만으로 만든 담백한 비건 파스타",
+        "nutrition": {
+          "calories": 410,
+          "protein": 14,
+          "fat": 12,
+          "carbs": 50,
+          "sodium": 260
+        }
+      },
+      {
+        "id": 3,
+        "name": "두부 시저 샐러드",
+        "price": 10500,
+        "image": "https://png.pngtree.com/png-clipart/20241217/original/pngtree-caesar-salads-isolated-on-white-transparent-background-png-image_17954161.png",
+        "description": "시저드레싱 대신 비건 드레싱과 구운 두부가 올라간 식이섬유 풍부한 샐러드",
+        "nutrition": {
+          "calories": 280,
+          "protein": 16,
+          "fat": 10,
+          "carbs": 22,
+          "sodium": 200
+        }
+      },
+      {
+        "id": 4,
+        "name": "코코넛 요거트 & 그래놀라",
+        "price": 7000,
+        "image": "https://png.pngtree.com/png-vector/20240813/ourmid/pngtree-delicious-homemade-granola-recipe-with-nuts-and-dried-fruit-png-image_13468594.png",
+        "description": "코코넛 베이스의 비건 요거트에 수제 그래놀라를 곁들인 간편식",
+        "nutrition": {
+          "calories": 260,
+          "protein": 4,
+          "fat": 14,
+          "carbs": 28,
+          "sodium": 80
+        }
+      }
+    ]
+  }
+]
